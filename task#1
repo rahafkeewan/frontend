@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>project1</title>
+    </head>
+    <body>
+        <img src="logo.jpg"  width="150" height="150">
+        <h1>Interests Survey Form</h1>
+        <form action="#" method="post">
+            <label for="username">Enter Your Name:</label> <input type="text" id="username"><br><br>
+            <label for="Email">Enter Your Email:</label> <input type="text" id="Email"><br><br>
+            <label for="aboutyourself">Tell us About Yourself:</label> <textarea id="aboutyourself" rows="3" cols="20"></textarea><br><br>
+            <Label>Do you exercise at home?</Label>
+            <input type = "radio" id="yes" name = "exerciseathome" value="yes"> <Label for="yes">Yes</Label>
+            <input type = "radio" id="no" name = "exerciseathome" value="no"> <Label for="no">No</Label><br><br>
+            <Label>How Do You Like To Read About Your Favorite Topics?</Label><br><br>
+            <input type = "checkbox" id="Books" name = "favoritetopics" value="Books"> <Label for="Books">Books</Label>
+            <input type = "checkbox" id="onlineresources" name = "favoritetopics" value="onlineresources"> <Label for="onlineresources">Online resources</Label>
+            <input type = "checkbox" id="phoneapps" name = "favoritetopics" value="phoneapps"> <Label for="phoneapps">Phone Apps</Label>
+            <input type = "checkbox" id="magazines" name = "favoritetopics" value="magazines"> <Label for="magazines">Magazines</Label><br><br>
+            <Label>How Do You Like To Read About Your Favorite Topics?</Label>
+            <select name="movieslike" id="movieslike">
+                <option value="comedy" selected>comedy</option>
+                <option value="romance" >romance</option>
+                <option value="thriller" >thriller</option>
+                <option value="horror" >horror</option>
+            </select><br><br>
+            <input type="submit" value="submit btn">
+        </form>
+        <br>
+        <p>Learn More About Us:</p>
+        <video width="500" height="300" controls>
+            <source src="IEEE.mp4" type="video/mp4">
+        </video>
+    </body>
+</html>
